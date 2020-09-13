@@ -42,6 +42,10 @@ while True:
 
     #ZONA DE DIBUJO
 
+    MonoUno = pygame.image.load("mono_uno.png")
+    screen.blit(MonoUno, (50, 500-PrimerEdificio-24))
+    screen.blit(MonoUno, (680, 500-SeptimoEdificio-24))
+
 
     #actualizar pantalla
     pygame.display.flip()
